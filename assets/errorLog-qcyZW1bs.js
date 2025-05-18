@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.top/
+ */
+    
+import{_ as y}from"./index-CPokHgEa.js";import{d as b,ad as S,r as w,A as B,c as L,o as s,w as i,k as n,u as c,a as e,b as d,_ as C,e as p,W as N,F as $,n as E,t as r,S as K}from"./index-DYOJpx7Z.js";const V={key:0,class:"flex flex-col items-center gap-4 p-4"},D={key:0,class:"w-full"},F={class:"flex justify-evenly"},T={class:"text-xs text-gray-5"},j={class:"text-xs text-gray-5"},A={class:"text-xs text-gray-5"},I={class:"text-xs text-gray-5"},J={key:1},M={key:1},O="example",z=b({__name:"errorLog",setup(P){const x=S(),l=w(""),m=B(()=>l.value?[JSON.parse(l.value)]:[]);function u(v){switch(K(()=>{l.value=sessionStorage.getItem("errorLog")||""}),v){case 1:a=abc;break;case 2:testMethod();break}}return(v,t)=>{const _=C,g=N,f=y;return s(),L(f,{navbar:"","navbar-start-side":"back"},{default:i(()=>[O!=="development"?(s(),n("div",V,[c(x).settings.app.enableErrorLog?(s(),n("div",D,[e("div",F,[d(_,{onClick:t[0]||(t[0]=o=>u(1))},{default:i(()=>t[2]||(t[2]=[p(" 模拟触发错误1 ")])),_:1}),d(_,{onClick:t[1]||(t[1]=o=>u(2))},{default:i(()=>t[3]||(t[3]=[p(" 模拟触发错误2 ")])),_:1})]),d(g),(s(!0),n($,null,E(c(m),(o,k)=>(s(),n("div",{key:k,class:"flex flex-col gap-2 break-words rounded bg-white p-4"},[e("div",null,[t[4]||(t[4]=e("div",null,"错误信息",-1)),e("div",T,r(o.err.message),1)]),e("div",null,[t[5]||(t[5]=e("div",null,"错误详情",-1)),e("div",j,r(o.err.stack),1)]),e("div",null,[t[6]||(t[6]=e("div",null,"错误链接",-1)),e("div",A,r(o.url),1)]),e("div",null,[t[7]||(t[7]=e("div",null,"时间",-1)),e("div",I,r(o.datetime),1)])]))),128))])):(s(),n("div",J," 请到 /src/settings.ts 里打开错误日志功能，再进入该页面查看演示 "))])):(s(),n("div",M," 当前为开发环境，该功能关闭演示 "))]),_:1})}}});export{z as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.top/
+ */
+    
+.animate-marquee[data-v-20bf8026]{animation:marquee-20bf8026 var(--duration) linear infinite;animation-direction:reverse}.animate-marquee-vertical[data-v-20bf8026]{animation:marquee-vertical-20bf8026 var(--duration) linear infinite}@keyframes marquee-20bf8026{0%{transform:translate(0)}to{transform:translate(calc(-100% - var(--gap)))}}@keyframes marquee-vertical-20bf8026{0%{transform:translateY(0)}to{transform:translateY(calc(-100% - var(--gap)))}}

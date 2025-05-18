@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.top/
+ */
+    
+import{_ as f}from"./index-CPokHgEa.js";import{_ as d}from"./index.vue_vue_type_script_setup_true_lang-BJ4zJUgu.js";import{d as _,r as v,c as x,o as z,w as o,b as e,a,f as g,u as m,_ as b,e as i}from"./index-DYOJpx7Z.js";const k={class:"space-x-2"},K=_({__name:"icon",setup(w){const l=v("https://picsum.photos/50");function p(){l.value="",l.value=`https://picsum.photos/50?random=${Math.random()}`}const u=new URL(""+new URL("logo-C4NiTglW.png",import.meta.url).href,import.meta.url).href;return(I,n)=>{const s=g,t=b,r=d,c=f;return z(),x(c,{navbar:"","navbar-start-side":"back"},{default:o(()=>[e(r,null,{default:o(()=>[n[3]||(n[3]=a("p",null,"单色 Icon",-1)),a("div",null,[e(s,{name:"example-emotion-line",class:"size-12"}),e(s,{name:"example-emotion-laugh-line",class:"size-12"}),e(s,{name:"example-emotion-unhappy-line",class:"size-12"})]),n[4]||(n[4]=a("p",null,"彩色 Icon",-1)),a("div",null,[e(s,{name:"example-crown",class:"size-12"}),e(s,{name:"example-star",class:"size-12"}),e(s,{name:"example-vip",class:"size-12"})]),n[5]||(n[5]=a("p",null,"Iconify Icon",-1)),a("div",null,[e(s,{name:"i-carbon:4k",class:"size-12"}),e(s,{name:"i-carbon:play-filled-alt",class:"size-12"}),e(s,{name:"i-carbon:pause-filled",class:"size-12"})]),n[6]||(n[6]=a("p",null,"网络图片",-1)),e(s,{name:m(l),class:"size-12"},null,8,["name"]),a("div",k,[e(t,{onClick:p},{default:o(()=>n[1]||(n[1]=[i(" 更改图片 ")])),_:1}),e(t,{onClick:n[0]||(n[0]=C=>l.value="")},{default:o(()=>n[2]||(n[2]=[i(" 创建错误 ")])),_:1})]),n[7]||(n[7]=a("p",null,"本地图片",-1)),e(s,{name:m(u),class:"size-12"},null,8,["name"])]),_:1})]),_:1})}}});export{K as default};

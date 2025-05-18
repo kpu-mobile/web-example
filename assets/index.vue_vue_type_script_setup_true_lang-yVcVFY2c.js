@@ -1,0 +1,9 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.top/
+ */
+    
+import{_ as x}from"./index.vue_vue_type_script_setup_true_lang-BJ4zJUgu.js";import{d as v,l as $,b1 as y,k as S,o as u,a as c,c as g,p as B,e as _,t as f,u as t,_ as C,w as m,b as a,f as h,q as K,s as z,v as I,r as N,a3 as V,C as D,a4 as q}from"./index-DYOJpx7Z.js";const E={class:"w-full overflow-auto whitespace-pre-line"},M={class:"whitespace-pre",tabindex:"0"},w=v({__name:"index",props:{code:{},class:{}},setup(s){const e=s,{t:l}=$(),{copy:i,copied:r,isSupported:d}=y();return(n,o)=>{const p=h,k=C;return u(),S("div",{class:K(t(z)("group relative w-full rounded-lg bg-dark p-4 text-light",e.class))},[c("pre",E,[o[1]||(o[1]=_("      ")),c("code",M,f(n.code),1),o[2]||(o[2]=_(`
+    `))]),t(d)?(u(),g(k,{key:0,variant:"secondary",class:"absolute end-3 top-3 border border-light/20 px-2.5",onClick:o[0]||(o[0]=j=>t(i)(n.code))},{default:m(()=>[_(f(t(r)?t(l)("copied"):"")+" ",1),a(p,{name:t(r)?"i-tabler:clipboard-check":"i-tabler:clipboard",class:"size-4"},null,8,["name"])]),_:1})):B("",!0)],2)}}});function b(s){const e=s;e.__i18n=e.__i18n||[],e.__i18n.push({locale:"",resource:{"zh-cn":{copied:{t:0,b:{t:2,i:[{t:3}],s:"已复制"}}},"en-US":{copied:{t:0,b:{t:2,i:[{t:3}],s:"Copied"}}}}})}typeof b=="function"&&b(w);const P=I(w,[["__scopeId","data-v-173facc9"]]),T={class:"p-4"},U={class:"border-t p-2"},G=v({__name:"index",props:{code:{type:String,default:null},title:{type:String,default:null}},setup(s){const e=N(!1);function l(){e.value=!e.value}return(i,r)=>{const d=P,n=h,o=C,p=x;return u(),g(p,{title:s.title,"main-class":"p-0"},{default:m(()=>[c("div",T,[D(i.$slots,"default")]),V(a(d,{code:s.code.trim(),class:"rounded-none"},null,8,["code"]),[[q,t(e)]]),c("div",U,[a(o,{variant:"ghost",size:"sm",class:"w-full",onClick:l},{default:m(()=>[a(n,{name:t(e)?"i-lucide:code":"i-lucide:code-xml",class:"size-4"},null,8,["name"])]),_:1})])]),_:3},8,["title"])}}});export{G as _};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.top/
+ */
+    
+import{_ as p}from"./index-CPokHgEa.js";import{_ as m}from"./index.vue_vue_type_script_setup_true_lang-BJ4zJUgu.js";import{d as f,c as g,o as k,w as t,b as n,a as v,_ as C,e as s,V as l}from"./index-DYOJpx7Z.js";const $={class:"flex flex-col gap-2"},w=f({__name:"index",setup(_){function i(d){if(d)if(d==="loading1")l.promise(()=>new Promise(o=>{setTimeout(o,2e3)}),{loading:"加载中",success:()=>"加载成功",error:()=>"加载失败",position:"top-right",duration:3e3});else if(d==="loading2"){const o=l.loading("加载中",{position:"top-right",duration:1/0});setTimeout(()=>{l.dismiss(o),l("Kpu-mobile 自成一派的 H5 框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3})},2e3)}else l[d]("Kpu-mobile 自成一派的 H5 框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3});else l("Kpu-mobile 自成一派的 H5 框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3})}return(d,o)=>{const e=C,a=m,u=p;return k(),g(u,{navbar:"","navbar-start-side":"back"},{default:t(()=>[n(a,null,{default:t(()=>[v("div",$,[n(e,{onClick:o[0]||(o[0]=r=>i())},{default:t(()=>o[7]||(o[7]=[s(" 默认 ")])),_:1}),n(e,{onClick:o[1]||(o[1]=r=>i("success"))},{default:t(()=>o[8]||(o[8]=[s(" 成功 ")])),_:1}),n(e,{onClick:o[2]||(o[2]=r=>i("error"))},{default:t(()=>o[9]||(o[9]=[s(" 错误 ")])),_:1}),n(e,{onClick:o[3]||(o[3]=r=>i("info"))},{default:t(()=>o[10]||(o[10]=[s(" 信息 ")])),_:1}),n(e,{onClick:o[4]||(o[4]=r=>i("warning"))},{default:t(()=>o[11]||(o[11]=[s(" 警告 ")])),_:1}),n(e,{onClick:o[5]||(o[5]=r=>i("loading1"))},{default:t(()=>o[12]||(o[12]=[s(" 加载中 1 ")])),_:1}),n(e,{onClick:o[6]||(o[6]=r=>i("loading2"))},{default:t(()=>o[13]||(o[13]=[s(" 加载中 2 ")])),_:1})])]),_:1})]),_:1})}}});export{w as default};
