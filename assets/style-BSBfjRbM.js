@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.cn
+ */
+  
+import{C as e,D as t,Dt as n,E as r,Nt as i,O as a,Y as o,_ as s,a as c,at as l,ct as u,k as d,mt as f,q as p,w as m,yt as h}from"./vue-router-DpP-iWv7.js";import{L as g,Q as _}from"./index-CqA6ZM_a.js";import{t as v}from"./AppPageLayout-b-gp_UZ6.js";var y={class:`p-4 flex flex-col gap-4`},b={class:`flex gap-2`},x={class:`flex gap-2`},S={class:`flex gap-2`},C=d({__name:`style`,setup(d){let C=c(),w=h(!1),T=h(!1),E=h(!1);return l(T,e=>{e&&(E.value=!1)}),l(E,e=>{e&&(T.value=!1)}),(c,l)=>{let d=g,h=_,D=v;return p(),m(D,{navbar:``,"navbar-border":n(w),"navbar-radius":n(T),"navbar-mask":n(E)},{default:u(()=>[e(`div`,y,[e(`div`,b,[l[4]||(l[4]=e(`p`,null,`边框`,-1)),a(d,{modelValue:n(w),"onUpdate:modelValue":l[0]||(l[0]=e=>f(w)?w.value=e:null)},null,8,[`modelValue`])]),e(`div`,x,[l[5]||(l[5]=e(`p`,null,`圆角`,-1)),a(d,{modelValue:n(T),"onUpdate:modelValue":l[1]||(l[1]=e=>f(T)?T.value=e:null)},null,8,[`modelValue`])]),e(`div`,S,[l[6]||(l[6]=e(`p`,null,`渐变遮罩`,-1)),a(d,{modelValue:n(E),"onUpdate:modelValue":l[2]||(l[2]=e=>f(E)?E.value=e:null)},null,8,[`modelValue`])]),l[8]||(l[8]=e(`p`,null,[t(`由于圆角使用了 `),e(`code`,null,`overflow-hidden`),t(` 属性，会影响渐变遮罩效果，故两者不建议同时使用。`)],-1)),a(h,{onClick:l[3]||(l[3]=e=>n(C).back())},{default:u(()=>[...l[7]||(l[7]=[t(` 返回 `,-1)])]),_:1}),(p(),r(s,null,o(50,t=>e(`div`,{key:t,class:`text-center`},i(t),1)),64))])]),_:1},8,[`navbar-border`,`navbar-radius`,`navbar-mask`])}}});export{C as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.cn
+ */
+  
+import{Dt as e,E as t,L as n,O as r,R as i,S as a,Z as o,_ as s,ct as c,k as l,mt as u,nt as d,q as f,yt as p}from"./vue-router-DpP-iWv7.js";function m(e,t){let n={};for(let r=0;r<t.length;r++){let i=t[r];Object.hasOwn(e,i)&&(n[i]=e[i])}return n}var h=l({name:`VanFieldPicker`,__name:`index`,props:n({label:{},name:{},id:{},type:{},size:{},placeholder:{},border:{},colon:{},required:{},center:{},arrowDirection:{},labelClass:{},labelWidth:{},labelAlign:{},autosize:{},leftIcon:{},rightIcon:{},rules:{},round:{type:Boolean},columns:{}},{modelValue:{},modelModifiers:{}}),emits:[`update:modelValue`],setup(n){let l=n,h=a(()=>m(l,[`label`,`name`,`id`,`type`,`size`,`placeholder`,`border`,`colon`,`required`,`center`,`arrowDirection`,`labelClass`,`labelWidth`,`labelAlign`,`autosize`,`leftIcon`,`rightIcon`,`rules`])),g=a(()=>m(l,[`round`])),_=a(()=>m(l,[`columns`])),v=d(n,`modelValue`),y=p([v.value]),b=a(()=>l.columns?.find(e=>e.value===v.value)?.text),x=p(!1);return(n,a)=>{let l=o(`van-field`),d=o(`van-picker`),p=o(`van-popup`);return f(),t(s,null,[r(l,i({"model-value":e(b)},e(h),{"is-link":``,readonly:``,onClick:a[0]||(a[0]=e=>x.value=!0)}),null,16,[`model-value`]),r(p,i({show:e(x),"onUpdate:show":a[3]||(a[3]=e=>u(x)?x.value=e:null)},e(g),{position:`bottom`,teleport:`body`}),{default:c(()=>[r(d,i({"model-value":e(y)},e(_),{onConfirm:a[1]||(a[1]=({selectedOptions:e})=>{v.value=e[0]?.value,x.value=!1}),onCancel:a[2]||(a[2]=e=>x.value=!1)}),null,16,[`model-value`])]),_:1},16,[`show`])],64)}}});export{m as n,h as t};

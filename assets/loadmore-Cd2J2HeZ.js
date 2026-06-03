@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.cn
+ */
+  
+import{C as e,Dt as t,E as n,Nt as r,W as i,Y as a,_ as o,ct as s,it as c,k as l,q as u,w as d,yt as f,z as p}from"./vue-router-DpP-iWv7.js";import{s as m}from"./index-CqA6ZM_a.js";import{t as h}from"./AppPageLayout-b-gp_UZ6.js";var g={class:`m-4 flex flex-col gap-4`},_={class:`text-stone-4 after:bg-stone-2 before:bg-stone-2 dark-text-stone-6 after:dark-bg-stone-6 before:dark-bg-stone-6 text-sm font-500 flex gap-4 whitespace-nowrap items-center justify-between after:h-[1px] after:w-full before:h-[1px] before:w-full after:content-empty before:content-empty`},v=l({__name:`loadmore`,setup(l){let v=c(`layoutRef`),y=f(0),b=f(10),x=f(0),S=f([]);function C(){m.get(`page/loadmore`,{fake:!0,baseURL:`/mock`,params:{from:y.value*b.value,limit:b.value}}).then(e=>{S.value.push(...e.data.list),y.value+=1,x.value=e.data.total,p(()=>{(v.value?.ref?.clientHeight??0)===(v.value?.ref?.scrollHeight??0)&&S.value.length<x.value&&C()})})}function w(){S.value.length<x.value&&C()}return i(()=>{C()}),(i,c)=>{let l=h;return u(),d(l,{ref_key:`layoutRef`,ref:v,navbar:``,"navbar-start-side":`back`,onReachBottom:w},{default:s(()=>[e(`div`,g,[(u(!0),n(o,null,a(t(S),(e,t)=>(u(),n(`div`,{key:t,class:`p-4 bg-[var(--g-container-bg)]`},r(e),1))),128)),e(`div`,_,r(t(S).length<t(x)?`加载更多`:`已经到底啦`),1)])]),_:1},512)}}});export{v as default};
