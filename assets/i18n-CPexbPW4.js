@@ -1,0 +1,8 @@
+
+/**
+ * 由 Kpu-mobile 提供技术支持
+ * Powered by Kpu-mobile
+ * https://kpu-mobile.kpui.cn
+ */
+  
+import{C as e,D as t,Dt as n,Nt as r,O as i,Z as a,at as o,ct as s,k as c,q as l,w as u,yt as d}from"./vue-router-DpP-iWv7.js";import{H as f,Q as p,ft as m,ht as h,pt as g,t as _,vt as v}from"./index-D4TT8-Ku.js";import{t as y}from"./AppPageLayout-DuOJLTKk.js";var b={class:`flex gap-4 justify-center`},x={class:`mt-4 text-center`},S=c({__name:`i18n`,setup(c){let{t:S}=v(),C=h(),w=d(``);o(()=>C.lang,()=>{w.value=_().format(`MMMM-dddd`)},{immediate:!0});function T(e){let t=m();t&&(e===`zh-cn`?(Object.assign(t[`zh-cn`],{hello:{world:`你好，世界！`}}),g.global.setLocaleMessage(e,t[`zh-cn`])):(Object.assign(t[`en-us`],{hello:{world:`Hello World !`}}),g.global.setLocaleMessage(e,t[`en-us`])))}return(o,c)=>{let d=a(`van-calendar`),m=f,h=p,g=y;return l(),u(g,{navbar:``,"navbar-start-side":`back`,"navbar-end-side":`i18n`},{default:s(()=>[c[4]||(c[4]=e(`div`,{class:`c-gray m-4`},` Vant 组件国际化 `,-1)),i(m,{class:`my-0`},{default:s(()=>[i(d,{poppable:!1,"show-confirm":!1,style:{height:`500px`}})]),_:1}),c[5]||(c[5]=e(`div`,{class:`c-gray m-4`},` Dayjs `,-1)),i(m,{class:`my-0`},{default:s(()=>[t(r(n(w)),1)]),_:1}),c[6]||(c[6]=e(`div`,{class:`c-gray m-4`},` 延迟加载 `,-1)),i(m,{class:`my-0`},{default:s(()=>[e(`div`,b,[i(h,{onClick:c[0]||(c[0]=e=>T(`zh-cn`))},{default:s(()=>[...c[2]||(c[2]=[t(` 载入中文 `,-1)])]),_:1}),i(h,{onClick:c[1]||(c[1]=e=>T(`en-us`))},{default:s(()=>[...c[3]||(c[3]=[t(` 载入英文 `,-1)])]),_:1})]),e(`div`,x,r(n(S)(`hello.world`)),1)]),_:1})]),_:1})}}});export{S as default};
